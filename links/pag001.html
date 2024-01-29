@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/icons8-favicon-50.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina 001</title>
+</head>
+<body>
+    <h1>testando uns link e pa</h1>
+    <H2>Imagens dinamicas</H2>
+    <p>Testando imagens</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+      <img src="imagens/foto-g.png" alt="foto grande">
+    </picture>
+    <h2>Testando uso de audios no site</h2>
+    <audio autoplay controls preload="metadata">
+        <source src="audios/framengo.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não suporta o tipo do arquivo, faça download abaixo</p>
+        <br>
+        <p>Links</p>
+        <a href="audios.rar" download="arquivo" type="application/rar"> Arquivo zipado </a>
+    </audio>
+    <br>
+    <audio src="audios/paysandu.mp3" preload="metadata" controls autoplay></audio>
+    <p id="goback"><a href="pag002.html" target="_self" rel="next"> proxima pagina aqui</a></p>
+</body>
+</html>
